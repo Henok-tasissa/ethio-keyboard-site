@@ -9,4 +9,4 @@ Promo, install guide and FAQ for Ethio Amharic Keyboard for Mac. Plain static HT
 ## Publishing a new version
 1. Build the notarized dmg in the Mac repo (`Scripts/release.sh`).
 2. `gh release create vX.Y.Z "path/Ethio-Amharic-Keyboard-X.Y.Z.dmg#Ethio-Amharic-Keyboard.dmg" --repo Henok-tasissa/ethio-keyboard-site --title "vX.Y.Z" --notes "..."`
-3. Update the version text in `index.html` ("Version X.Y.Z" in the download section).
+3. Update the version text in `index.html` ("Version X.Y.Z" in the download section), then commit and push.
